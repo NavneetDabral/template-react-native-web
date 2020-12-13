@@ -1,8 +1,8 @@
-import { Dashboard } from './Screens/Dashboard/'
+import { Text } from 'react-native'
 import './App.css'
 
 function App() {
-  return <Dashboard />
+  return <Text>hi</Text>
 }
 
 export default App
