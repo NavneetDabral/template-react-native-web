@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@react-native-community'],
+  extends: ['@react-native-community', 'eslint:recommended', 'plugin:@typescript-eslint/recommended'],
   parser: '@typescript-eslint/parser',
   plugins: ['@typescript-eslint'],
   rules: {
@@ -11,5 +11,7 @@ module.exports = {
         endOfLine: 'auto',
       },
     ],
+    'no-unused-expressions': 'off',
+    '@typescript-eslint/no-unused-expressions': 'error',
   },
 }
